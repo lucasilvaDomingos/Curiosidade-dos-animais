@@ -19,13 +19,16 @@ nav a{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
     width: 100%;
+
+}
+a{
+       box-sizing:border-box;
 }
 a:hover{
     background-color:#2ab0f9 ;
     color: #fffffa;
     border-radius: 8px;
     box-shadow:none;
-    transition-duration:0.2s;
     border: 2px solid #fffffa;
 }
 iframe{
